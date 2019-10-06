@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<Robot type="FirstInspires-FTC">
+    <LynxUsbDevice name="Expansion Hub Portal 1" serialNumber="DQ2F4EOO" parentModuleAddress="1">
+        <LynxModule name="Expansion Hub 1" port="1">
+            <NeveRest20Gearmotor name="frontLeftDrive" port="0" />
+            <NeveRest20Gearmotor name="backLeftDrive" port="1" />
+            <NeveRest20Gearmotor name="frontRightDrive" port="2" />
+            <NeveRest20Gearmotor name="backRightDrive" port="3" />
+            <Servo name="markerServo" port="0" />
+            <Servo name="collectionServo" port="1" />
+            <Servo name="craterServo" port="2" />
+            <Servo name="wristServo" port="3" />
+            <Servo name="brakeServo" port="4" />
+            <DigitalDevice name="liftSensor" port="1" />
+            <DigitalDevice name="topSensor" port="3" />
+            <LynxEmbeddedIMU name="imu" port="0" bus="0" />
+            <ModernRoboticsI2cRangeSensor name="rightRangeSensor" port="0" bus="1" />
+            <ModernRoboticsI2cRangeSensor name="leftRangeSensor" port="0" bus="2" />
+        </LynxModule>
+        <LynxModule name="Expansion Hub 2" port="2">
+            <NeveRest40Gearmotor name="extensionMotor" port="0" />
+            <NeveRest40Gearmotor name="liftMotor" port="1" />
+            <NeveRest20Gearmotor name="bigBoiMotor1" port="2" />
+            <NeveRest20Gearmotor name="bigBoiMotor2" port="3" />
+            <LynxEmbeddedIMU name="wgwIMU2018" port="0" bus="0" />
+            <LynxColorSensor name="sensor_color" port="0" bus="1" />
+        </LynxModule>
+    </LynxUsbDevice>
+</Robot>

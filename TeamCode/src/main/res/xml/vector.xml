@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<Robot type="FirstInspires-FTC">
+    <DeviceInterfaceModule name="Device Interface Module 5" serialNumber="AL026B23">
+        <AdafruitBNO055IMU name="imu" port="0" />
+        <ColorSensor name="color_front" port="1" />
+        <ModernRoboticsI2cRangeSensor name="sensor_range" port="2" />
+        <ColorSensor name="color_bottom" port="3" />
+        <TouchSensor name="limitSwitch" port="7" />
+    </DeviceInterfaceModule>
+    <MotorController name="left drive motors" serialNumber="AL00VBVN">
+        <Motor name="Back_Left_Drive" port="1" />
+        <Motor name="Front_Left_Drive" port="2" />
+    </MotorController>
+    <MotorController name="Motor Controller 6" serialNumber="AL00VXJK">
+        <Motor name="Lift" port="1" />
+    </MotorController>
+    <ServoController name="Servo Controller 1" serialNumber="A104OR21">
+        <Servo name="ballRelease" port="6" />
+    </ServoController>
+    <MotorController name="Launcher and Collector" serialNumber="AI049OZK">
+        <Motor name="LauncherMotor" port="1" />
+        <Motor name="CollectionMotor" port="2" />
+    </MotorController>
+    <MotorController name="Right Drive motors" serialNumber="A7008ON0">
+        <Motor name="Back_Right_Drive" port="1" />
+        <Motor name="Front_Right_Drive" port="2" />
+    </MotorController>
+</Robot>

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<Robot type="FirstInspires-FTC">
+    <LynxUsbDevice name="Expansion Hub Portal 1" serialNumber="DQ15MDRK" parentModuleAddress="1">
+        <LynxModule name="Expansion Hub 1" port="1">
+            <NeveRest20Gearmotor name="frontRightDrive" port="0" />
+            <NeveRest20Gearmotor name="frontLeftDrive" port="1" />
+            <NeveRest20Gearmotor name="backLeftDrive" port="2" />
+            <NeveRest20Gearmotor name="backRightDrive" port="3" />
+            <Servo name="rightRelicClaw" port="0" />
+            <Servo name="leftRelicClaw" port="1" />
+            <Servo name="relicClawTilt" port="2" />
+            <Servo name="glyphServoAA" port="3" />
+            <Servo name="glyphServoAB" port="4" />
+            <Servo name="jewelArm" port="5" />
+            <DigitalDevice name="lowerLimitSwitch" port="0" />
+            <DigitalDevice name="upperLimitSwitch" port="2" />
+            <DigitalDevice name="flipSwitchCCW" port="5" />
+            <DigitalDevice name="flipSwitchCW" port="6" />
+            <LynxEmbeddedIMU name="imu" port="0" bus="0" />
+            <LynxColorSensor name="jewelSensor" port="0" bus="1" />
+        </LynxModule>
+        <LynxModule name="Expansion Hub 2" port="2">
+            <NeveRest20Gearmotor name="liftStageOne" port="0" />
+            <NeveRest60Gearmotor name="relicMotor" port="1" />
+            <RevRoboticsCoreHexMotor name="glyphFlip" port="2" />
+            <Servo name="bottomClawServo" port="0" />
+            <Servo name="relicTiltA" port="1" />
+            <Servo name="glyphServoBA" port="2" />
+            <Servo name="glyphServoBB" port="3" />
+            <Servo name="blockServo" port="4" />
+            <Servo name="relicTilt" port="5" />
+            <LynxEmbeddedIMU name="imu2" port="0" bus="0" />
+        </LynxModule>
+    </LynxUsbDevice>
+</Robot>

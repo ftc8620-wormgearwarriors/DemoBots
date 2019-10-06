@@ -1,0 +1,84 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.qualcomm.ftcrobotcontroller"
+5    android:versionCode="31"
+6    android:versionName="4.3" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="19"
+9-->C:\Users\Public\Documents\FTC8620\Software\ftc_app-4.3\DemoBots_4.3\FtcRobotController\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="19" />
+10-->C:\Users\Public\Documents\FTC8620\Software\ftc_app-4.3\DemoBots_4.3\FtcRobotController\src\main\AndroidManifest.xml
+11
+12    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+12-->C:\Users\Public\Documents\FTC8620\Software\ftc_app-4.3\DemoBots_4.3\FtcRobotController\src\main\AndroidManifest.xml:8:3-79
+12-->C:\Users\Public\Documents\FTC8620\Software\ftc_app-4.3\DemoBots_4.3\FtcRobotController\src\main\AndroidManifest.xml:8:20-76
+13
+14    <application
+14-->C:\Users\Public\Documents\FTC8620\Software\ftc_app-4.3\DemoBots_4.3\FtcRobotController\src\main\AndroidManifest.xml:10:3-49:17
+15        android:allowBackup="true"
+15-->C:\Users\Public\Documents\FTC8620\Software\ftc_app-4.3\DemoBots_4.3\FtcRobotController\src\main\AndroidManifest.xml:11:5-31
+16        android:icon="@drawable/ic_launcher"
+16-->C:\Users\Public\Documents\FTC8620\Software\ftc_app-4.3\DemoBots_4.3\FtcRobotController\src\main\AndroidManifest.xml:13:5-41
+17        android:label="@string/app_name"
+17-->C:\Users\Public\Documents\FTC8620\Software\ftc_app-4.3\DemoBots_4.3\FtcRobotController\src\main\AndroidManifest.xml:14:5-37
+18        android:largeHeap="true"
+18-->C:\Users\Public\Documents\FTC8620\Software\ftc_app-4.3\DemoBots_4.3\FtcRobotController\src\main\AndroidManifest.xml:12:5-29
+19        android:theme="@style/AppThemeRedRC" >
+19-->C:\Users\Public\Documents\FTC8620\Software\ftc_app-4.3\DemoBots_4.3\FtcRobotController\src\main\AndroidManifest.xml:15:5-41
+20
+21        <!-- The main robot controller activity -->
+22        <activity
+22-->C:\Users\Public\Documents\FTC8620\Software\ftc_app-4.3\DemoBots_4.3\FtcRobotController\src\main\AndroidManifest.xml:18:5-42:16
+23            android:name="org.firstinspires.ftc.robotcontroller.internal.FtcRobotControllerActivity"
+23-->C:\Users\Public\Documents\FTC8620\Software\ftc_app-4.3\DemoBots_4.3\FtcRobotController\src\main\AndroidManifest.xml:19:7-95
+24            android:configChanges="orientation|screenSize"
+24-->C:\Users\Public\Documents\FTC8620\Software\ftc_app-4.3\DemoBots_4.3\FtcRobotController\src\main\AndroidManifest.xml:21:7-53
+25            android:label="@string/app_name"
+25-->C:\Users\Public\Documents\FTC8620\Software\ftc_app-4.3\DemoBots_4.3\FtcRobotController\src\main\AndroidManifest.xml:22:7-39
+26            android:launchMode="singleTask"
+26-->C:\Users\Public\Documents\FTC8620\Software\ftc_app-4.3\DemoBots_4.3\FtcRobotController\src\main\AndroidManifest.xml:23:7-38
+27            android:screenOrientation="fullUser" >
+27-->C:\Users\Public\Documents\FTC8620\Software\ftc_app-4.3\DemoBots_4.3\FtcRobotController\src\main\AndroidManifest.xml:20:7-43
+28            <intent-filter>
+28-->C:\Users\Public\Documents\FTC8620\Software\ftc_app-4.3\DemoBots_4.3\FtcRobotController\src\main\AndroidManifest.xml:25:7-28:23
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->C:\Users\Public\Documents\FTC8620\Software\ftc_app-4.3\DemoBots_4.3\FtcRobotController\src\main\AndroidManifest.xml:26:9-69
+29-->C:\Users\Public\Documents\FTC8620\Software\ftc_app-4.3\DemoBots_4.3\FtcRobotController\src\main\AndroidManifest.xml:26:19-66
+30
+31                <action android:name="android.intent.action.MAIN" />
+31-->C:\Users\Public\Documents\FTC8620\Software\ftc_app-4.3\DemoBots_4.3\FtcRobotController\src\main\AndroidManifest.xml:27:9-61
+31-->C:\Users\Public\Documents\FTC8620\Software\ftc_app-4.3\DemoBots_4.3\FtcRobotController\src\main\AndroidManifest.xml:27:17-58
+32            </intent-filter>
+33            <intent-filter>
+33-->C:\Users\Public\Documents\FTC8620\Software\ftc_app-4.3\DemoBots_4.3\FtcRobotController\src\main\AndroidManifest.xml:30:7-32:23
+34                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+34-->C:\Users\Public\Documents\FTC8620\Software\ftc_app-4.3\DemoBots_4.3\FtcRobotController\src\main\AndroidManifest.xml:31:9-82
+34-->C:\Users\Public\Documents\FTC8620\Software\ftc_app-4.3\DemoBots_4.3\FtcRobotController\src\main\AndroidManifest.xml:31:17-79
+35            </intent-filter>
+36
+37            <meta-data
+37-->C:\Users\Public\Documents\FTC8620\Software\ftc_app-4.3\DemoBots_4.3\FtcRobotController\src\main\AndroidManifest.xml:34:7-36:49
+38                android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
+38-->C:\Users\Public\Documents\FTC8620\Software\ftc_app-4.3\DemoBots_4.3\FtcRobotController\src\main\AndroidManifest.xml:35:9-71
+39                android:resource="@xml/device_filter" />
+39-->C:\Users\Public\Documents\FTC8620\Software\ftc_app-4.3\DemoBots_4.3\FtcRobotController\src\main\AndroidManifest.xml:36:9-46
+40            <meta-data
+40-->C:\Users\Public\Documents\FTC8620\Software\ftc_app-4.3\DemoBots_4.3\FtcRobotController\src\main\AndroidManifest.xml:38:7-41:13
+41                android:name="org.firstinspires.main.entry"
+41-->C:\Users\Public\Documents\FTC8620\Software\ftc_app-4.3\DemoBots_4.3\FtcRobotController\src\main\AndroidManifest.xml:39:11-54
+42                android:value="true" />
+42-->C:\Users\Public\Documents\FTC8620\Software\ftc_app-4.3\DemoBots_4.3\FtcRobotController\src\main\AndroidManifest.xml:40:11-31
+43        </activity>
+44
+45        <!-- The robot controller service in which most of the robot functionality is managed -->
+46        <service
+46-->C:\Users\Public\Documents\FTC8620\Software\ftc_app-4.3\DemoBots_4.3\FtcRobotController\src\main\AndroidManifest.xml:45:5-47:32
+47            android:name="com.qualcomm.ftccommon.FtcRobotControllerService"
+47-->C:\Users\Public\Documents\FTC8620\Software\ftc_app-4.3\DemoBots_4.3\FtcRobotController\src\main\AndroidManifest.xml:46:7-70
+48            android:enabled="true" />
+48-->C:\Users\Public\Documents\FTC8620\Software\ftc_app-4.3\DemoBots_4.3\FtcRobotController\src\main\AndroidManifest.xml:47:7-29
+49    </application>
+50
+51</manifest>
