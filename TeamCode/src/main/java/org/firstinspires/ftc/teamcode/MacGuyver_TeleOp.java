@@ -1,16 +1,14 @@
 package org.firstinspires.ftc.teamcode;
 
-import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
-
 import com.qualcomm.robotcore.hardware.DcMotor;
 
 @TeleOp(name="MacGuyver-TeleOp", group="TeleOp")
 //@Disabled
 public class MacGuyver_TeleOp extends LinearOpMode {
 
-    DcMotor     leftDrive;
+    DcMotor     leftDrive;          // should add  more comments
     DcMotor     rightDrive;
 
     //DcMotor     liftExtension;
