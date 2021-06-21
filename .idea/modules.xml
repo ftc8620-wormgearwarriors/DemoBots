@@ -3,8 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DemoBots.iml" filepath="$PROJECT_DIR$/DemoBots.iml" />
-      <module fileurl="file://$PROJECT_DIR$/FtcRobotController/FtcRobotController.iml" filepath="$PROJECT_DIR$/FtcRobotController/FtcRobotController.iml" />
-      <module fileurl="file://$PROJECT_DIR$/TeamCode/TeamCode.iml" filepath="$PROJECT_DIR$/TeamCode/TeamCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FtcRobotController/DemoBots.FtcRobotController.iml" filepath="$PROJECT_DIR$/.idea/modules/FtcRobotController/DemoBots.FtcRobotController.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TeamCode/DemoBots.TeamCode.iml" filepath="$PROJECT_DIR$/.idea/modules/TeamCode/DemoBots.TeamCode.iml" />
     </modules>
   </component>
 </project>

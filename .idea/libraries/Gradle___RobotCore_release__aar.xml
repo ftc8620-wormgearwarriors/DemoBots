@@ -8,6 +8,14 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ee39df0e969aebb927478359e9ecc0c1/jars/libs/javac.jar!/" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ee39df0e969aebb927478359e9ecc0c1/jars/libs/support-annotations-23.4.0.jar!/" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ee39df0e969aebb927478359e9ecc0c1/jars/libs/Vuforia.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0bdd69dccd9c5305c7c3584403246056/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0bdd69dccd9c5305c7c3584403246056/jars/libs/gson-extras-0.2.1.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0bdd69dccd9c5305c7c3584403246056/jars/libs/support-annotations-23.4.0.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0bdd69dccd9c5305c7c3584403246056/jars/libs/Vuforia.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0bdd69dccd9c5305c7c3584403246056/jars/libs/javac.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0bdd69dccd9c5305c7c3584403246056/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0bdd69dccd9c5305c7c3584403246056/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0bdd69dccd9c5305c7c3584403246056/jars/libs/gson-2.8.0.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
