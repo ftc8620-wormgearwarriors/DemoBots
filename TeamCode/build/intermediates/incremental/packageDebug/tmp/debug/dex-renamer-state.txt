@@ -1,4 +1,4 @@
-#Sun Sep 29 22:43:48 CDT 2019
-base.0=C\:\\Users\\Public\\Documents\\FTC8620\\Software\\ftc_app-4.3\\DemoBots\\TeamCode\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+#Mon Jun 21 16:36:54 CDT 2021
+base.0=C\:\\Users\\FTC8620\\StudioProjects\\DemoBots\\TeamCode\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
 path.0=classes.dex
 renamed.0=classes.dex
