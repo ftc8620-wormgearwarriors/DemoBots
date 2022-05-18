@@ -64,6 +64,8 @@ public class VectorTeleOp extends OpMode{
 
         // Send telemetry message to signify robot waiting;
         telemetry.addData("Say", "Running");
+        telemetry.addData("Ball Release Servo Init Value",ballRelease.getPosition());
+
         updateTelemetry(telemetry);
 
         ballRelease.setPosition(0.0);
@@ -120,6 +122,8 @@ public class VectorTeleOp extends OpMode{
         telemetry.addData("x_prime", x_prime);
         telemetry.addData("y_prime", y_prime);
         telemetry.addData("Gyro Heading", gyroHeading);
+        telemetry.addData("Ball Release Servo Init Value",ballRelease.getPosition());
+
 
         // Run wheels in POV mode (note: The joystick goes negative when pushed forwards, so negate it)
         // In this mode the Left stick moves the robot fwd and back, the Right stick turns left and right.
