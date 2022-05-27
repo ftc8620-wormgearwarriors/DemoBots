@@ -1,4 +1,0 @@
-#Thu May 05 18:46:34 CDT 2022
-base.0=C\:\\Users\\FTC8620\\StudioProjects\\DemoBots\\TeamCode\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
-path.0=classes.dex
-renamed.0=classes.dex
